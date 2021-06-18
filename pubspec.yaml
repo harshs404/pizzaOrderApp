@@ -1,0 +1,48 @@
+name: pizzato
+description: Pizza food delivery app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: null
+  cupertino_icons: ^1.0.0
+  eva_icons_flutter: ^2.0.1
+  firebase_auth: ^0.18.3
+  firebase_core: ^0.5.2
+  font_awesome_flutter: ^8.10.0
+  geocoder: ^0.2.1
+  geolocator: ^6.1.6
+  google_maps_flutter: ^1.0.6
+  lottie: ^0.7.0+1
+  page_transition: ^1.1.7+2
+  provider: ^4.3.2+2
+  razorpay_flutter: ^1.2.3
+  shared_preferences: ^0.5.12+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - images/flame.png
+    - images/payment.png
+    - images/sign.png
+    - images/space.png
+    - images/deciderbg.png
+    - animation/slice.json
+    - animation/delivery.json
+    - animation/airplane.json
+    - icons/worker.png
+    - icons/customer.png
+    - images/adminlogin.png
+  uses-material-design: true
+  fonts:
+    - family: Monteserrat
+      fonts:
+        - asset: fonts/Monteserat.ttf
