@@ -1,6 +1,11 @@
 # pizzato
 
-A new Flutter project.
+An End to end, Food Ordering App using Flutter UI Kit
+Back-end: Firebase
+This is an app with great UI, using several key concepts of android
+development like Geo Locator, Firestore CRUD, Firebase Login,
+Payment Gateway and admin panel
+
 
 ## Getting Started
 
